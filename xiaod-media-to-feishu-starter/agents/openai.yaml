@@ -1,0 +1,4 @@
+interface:
+  display_name: "小D链接转文档·小白版"
+  short_description: "安装后只需配置模型与飞书工具，即可完成链接转文档全流程"
+  default_prompt: "Use $xiaod-media-to-feishu-starter to turn this media or document link into a polished Feishu knowledge-base document."
