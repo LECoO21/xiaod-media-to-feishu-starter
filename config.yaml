@@ -1,0 +1,29 @@
+agent:
+  max_turns: 150
+  verify_on_stop: true
+terminal:
+  cwd: "__XIAOD_WORKSPACE__"
+  timeout: 7200
+display:
+  tool_progress: all
+skills:
+  always_load:
+    - xiaod-media-to-feishu
+approvals:
+  destructive_slash_confirm: false
+command_allowlist:
+  - execute_code
+session_reset:
+  mode: none
+platforms:
+  feishu:
+    enabled: true
+platform_toolsets:
+  cli:
+    - clarify
+    - file
+    - memory
+    - skills
+    - terminal
+    - todo
+    - web

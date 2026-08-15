@@ -4,6 +4,7 @@ __pycache__/
 *.py[cod]
 .env
 .env.*
+!.env.EXAMPLE
 venv/
 .venv/
 incoming/
