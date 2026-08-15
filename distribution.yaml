@@ -1,0 +1,26 @@
+name: media-transcriber
+version: 2.0.0
+description: "小D-链接转录助手：音视频与链接转飞书知识库文档"
+hermes_requires: ">=0.20.0"
+author: "LECo"
+license: "MIT"
+env_requires:
+  - name: FEISHU_APP_ID
+    description: "由 Hermes 飞书扫码部署流程写入本机"
+    required: true
+  - name: FEISHU_APP_SECRET
+    description: "由 Hermes 飞书扫码部署流程写入本机"
+    required: true
+  - name: XIAOD_FEISHU_BOT_NAME
+    description: "安装者确认的飞书机器人名称"
+    required: true
+  - name: XIAOD_WIKI_SPACE_NAME
+    description: "目标飞书知识库名称"
+    required: true
+distribution_owned:
+  - SOUL.md
+  - config.yaml
+  - skills/
+  - scripts/
+  - distribution.yaml
+  - .env.EXAMPLE

@@ -1,0 +1,4 @@
+interface:
+  display_name: "小D-链接转录助手"
+  short_description: "自动把链接和音视频整理成长稿，并验证交付到飞书知识库"
+  default_prompt: "Use $xiaod-media-to-feishu to turn this link or media file into a verified Feishu knowledge-base document."
